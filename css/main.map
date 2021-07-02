@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/_pattern.scss"
+	],
+	"sourcesContent": [
+		"@import 'pattern';",
+		"*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-decoration: none;\n    list-style: none;\n    font-size: 1.6rem;\n}\n\nhtml,\nbody{\n    font-size: 62.5%;\n    font-family: 'PT Sans', sans-serif;\n    font-family: 'Lato', sans-serif;\n}\n\nbutton{\n    cursor: pointer;\n}\n\n.container{\n    width: 100%;\n    max-width: 122rem;\n    border: 1px solid red;\n    margin: 0 auto;\n    padding: 0 15px;\n}\n"
+	],
+	"names": [],
+	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;CACpB;;;AAED,AAAA,IAAI;AACJ,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,kBAAkB;CAClC;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,OAAO;CAClB;;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,aAAa;EACrB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB"
+}
