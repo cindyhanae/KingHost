@@ -1,3 +1,15 @@
+// VARIABLES
+$purple: #5F3CA1;
+$purple-op: rgba(124, 90, 186, 0.4);
+$white: #fff;
+$yellow: #FFBF00;
+$gray1: #453F51;
+$gray2: #5E5570;
+
+$ff-lato: 'Lato', sans-serif;
+$ff-pt: 'PT Sans', sans-serif;
+
+// RESETS
 *{
     margin: 0;
     padding: 0;
@@ -10,18 +22,18 @@
 html,
 body{
     font-size: 62.5%;
-    font-family: 'PT Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
+    font-family: $ff-pt;
 }
 
 button{
     cursor: pointer;
 }
 
+// PATTERNS
 .container{
     width: 100%;
     max-width: 122rem;
-    border: 1px solid red;
+    border: 1px solid $purple;
     margin: 0 auto;
     padding: 0 15px;
 }

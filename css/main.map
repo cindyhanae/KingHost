@@ -3,12 +3,14 @@
 	"file": "main.css",
 	"sources": [
 		"../scss/main.scss",
-		"../scss/_pattern.scss"
+		"../scss/_pattern.scss",
+		"../scss/_mixins.scss"
 	],
 	"sourcesContent": [
-		"@import 'pattern';",
-		"*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-decoration: none;\n    list-style: none;\n    font-size: 1.6rem;\n}\n\nhtml,\nbody{\n    font-size: 62.5%;\n    font-family: 'PT Sans', sans-serif;\n    font-family: 'Lato', sans-serif;\n}\n\nbutton{\n    cursor: pointer;\n}\n\n.container{\n    width: 100%;\n    max-width: 122rem;\n    border: 1px solid red;\n    margin: 0 auto;\n    padding: 0 15px;\n}\n"
+		"@import 'pattern';\n@import 'mixins';",
+		"// VARIABLES\n$purple: #5F3CA1;\n$purple-op: rgba(124, 90, 186, 0.4);\n$white: #fff;\n$yellow: #FFBF00;\n$gray1: #453F51;\n$gray2: #5E5570;\n\n$ff-lato: 'Lato', sans-serif;\n$ff-pt: 'PT Sans', sans-serif;\n\n// RESETS\n*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    text-decoration: none;\n    list-style: none;\n    font-size: 1.6rem;\n}\n\nhtml,\nbody{\n    font-size: 62.5%;\n    font-family: $ff-pt;\n}\n\nbutton{\n    cursor: pointer;\n}\n\n// PATTERNS\n.container{\n    width: 100%;\n    max-width: 122rem;\n    border: 1px solid $purple;\n    margin: 0 auto;\n    padding: 0 15px;\n}",
+		"@mixin typography($font-family, $font-size, $font-weight, $line-height, $color) {\n    font-family: $font-family;\n    font-size: $font-size;\n    font-weight: $font-weight;\n    line-height: $line-height;\n    color: $color;\n}"
 	],
 	"names": [],
-	"mappings": ";ACAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;CACpB;;;AAED,AAAA,IAAI;AACJ,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,kBAAkB;CAClC;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,OAAO;CAClB;;;AAED,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,aAAa;EACrB,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB"
+	"mappings": ";ACYA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;EACtB,eAAe,EAAE,IAAI;EACrB,UAAU,EAAE,IAAI;EAChB,SAAS,EAAE,MAAM;CACpB;;;AAED,AAAA,IAAI;AACJ,IAAI,CAAA;EACA,SAAS,EAAE,KAAK;EAChB,WAAW,EAfP,SAAS,EAAE,UAAU;CAgB5B;;;AAED,AAAA,MAAM,CAAA;EACF,MAAM,EAAE,OAAO;CAClB;;;AAGD,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,GAAG,CAAC,KAAK,CAlCZ,OAAO;EAmCZ,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,MAAM;CAClB"
 }
