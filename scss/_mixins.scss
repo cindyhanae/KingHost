@@ -5,3 +5,14 @@
     line-height: $line-height;
     color: $color;
 }
+
+@mixin d-flex-align{
+    display: flex;
+    align-items: center;
+}
+
+@mixin d-flex-justify{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

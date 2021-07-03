@@ -1,3 +1,7 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
 // VARIABLES
 $purple: #5F3CA1;
 $purple-op: rgba(124, 90, 186, 0.4);
@@ -5,6 +9,7 @@ $white: #fff;
 $yellow: #FFBF00;
 $gray1: #453F51;
 $gray2: #5E5570;
+$gray3: rgba(197, 190, 220, 0.1);
 
 $ff-lato: 'Lato', sans-serif;
 $ff-pt: 'PT Sans', sans-serif;
@@ -17,12 +22,13 @@ $ff-pt: 'PT Sans', sans-serif;
     text-decoration: none;
     list-style: none;
     font-size: 1.6rem;
+    font-family: $ff-pt;
+    font-weight: 400;
 }
 
 html,
 body{
     font-size: 62.5%;
-    font-family: $ff-pt;
 }
 
 button{
@@ -33,7 +39,11 @@ button{
 .container{
     width: 100%;
     max-width: 122rem;
-    border: 1px solid $purple;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+h3{
+    @include typography($ff-lato, 1.8rem, 700, 2.2rem, $purple)
+}
+

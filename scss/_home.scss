@@ -1,0 +1,129 @@
+// HEADER
+header{
+    background-color: $purple;
+    height: 11.9rem;
+    @include d-flex-justify;
+
+    nav.container{
+        @include d-flex-justify;
+        ul{
+            display: flex;
+            li{
+                margin-left: 5.6rem;
+                a{
+                    @include d-flex-align;
+                    @include typography($ff-lato, 1.6rem, 400, 1.9rem, $white);
+                    img{
+                        margin-right: 1.6rem;
+                    }
+                    span.star{
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// HERO
+section.s-hero{
+    background-color: $white;
+    height: 67.7rem;
+    border: 1px solid red;
+    .purple{
+        background-color: $purple;
+        height: 57.9rem;
+        .hero-content{
+            display: flex;
+            .hero-txt{
+                width: 55rem;
+                margin-top: 3.9rem;
+                h1{
+                    @include typography($ff-pt, 4.8rem, 700, 120%, $white);
+                }
+                p{
+                    @include typography($ff-lato, 1.8rem, 400, 150%, $white);
+                    margin: 1.6rem 0 3.2rem 0;
+                }
+                button.teste{
+                    background-color: $yellow;
+                    padding: 1.7rem 5.2rem;
+                    border: none;
+                    border-radius: 0.6rem;
+                    color: $purple;
+                    font-size: 1.6rem;
+                    font-weight: 700;
+                    margin-bottom: 8.6rem;
+                }
+                .arrow{
+                    height: 4.2rem;
+                    @include d-flex-align
+                    button.btn-arrow{
+                        height: 4.2rem;
+                        width: 4.2rem;
+                        background-color: $purple-op;
+                        border: none;
+                        border-radius: 0.6rem;
+                        padding: 0.9rem;
+                    }
+                    p{
+                        @include typography($ff-lato, 1.6rem, 700, 1.92rem, $white);
+                        margin-left: 1.6rem;
+                    }
+                }
+                
+            }
+            .hero-img{
+                width: 69rem;
+                img.desktop{
+                    margin-top: 7.6rem;
+                }
+            }
+        }
+    }
+}
+
+// SECTION
+section.s-info{
+    padding: 5.1rem 0 9.9rem 0;
+    .info-top{
+        margin-bottom: 5.3rem;
+        @include d-flex-justify;
+        h2{
+            width: 50.2rem;
+            @include typography($ff-pt, 3.2rem, 700, 130%, $gray1);
+        }
+        p{
+            @include typography($ff-lato, 1.6rem, 400, 150%, $gray2);
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+
+    .info-bottom{
+        @include d-flex-justify
+        .card{
+            border: 1px solid red;
+            width: 28rem;
+            height: 32.3rem;
+            padding: 4.1rem 3.4rem 6.8rem 4.2rem;
+            transition: background-color 0.3s ease;
+            img{
+                background-color: $white;
+                padding: 2rem;
+                border-radius: 1.2rem;
+            }
+            h3{
+                margin: 3rem 0 2rem 0;
+            }
+            p{
+                @include typography($ff-lato, 1.6rem, 400, 165%, $gray2)
+            }
+            &:hover{
+                background-color: $gray3;
+            }
+
+        }
+    }
+}
