@@ -29,16 +29,23 @@ $ff-pt: 'PT Sans', sans-serif;
 html,
 body{
     font-size: 62.5%;
+    @include responsive(1280px){
+        font-size: 55%;
+    };
 }
 
 button{
     cursor: pointer;
 }
 
+img{
+    max-width: 100%;
+}
+
 // PATTERNS
 .container{
     width: 100%;
-    max-width: 122rem;
+    max-width: 124.6rem;
     margin: 0 auto;
     padding: 0 15px;
 }

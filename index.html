@@ -12,19 +12,22 @@
 <body>
     <header>
         <nav class="container">
-            <img src="assets/logo.png" alt="">
+            <picture>
+                <source media="(max-width: 480px)" srcset="./assets/logo-mobile.png">
+                <img src="assets/logo.png" alt="Logo HostKing">
+            </picture>
 
             <ul>
                 <li>
                     <a href="">
-                        <img src="assets/question.svg" alt="">
+                        <img src="assets/question.svg" alt="Icone de ajuda">
                         <span>Precisa de ajuda?</span>
                     </a>
                 </li>
 
                 <li>
                     <a href="">
-                        <img src="assets/star.svg" alt="">
+                        <img src="assets/star.svg" alt="Icone de teste">
                         <span class="star">Teste gratuitamente</span>
                     </a>
                 </li>
@@ -35,24 +38,22 @@
     <main>
         <!-- HERO -->
         <section class="s-hero">
-            <div class="purple">
-                <div class="container">
-                    <div class="hero-content">
-                        <div class="hero-txt">
-                            <h1>Ferramenta de e-mail marketing perfeita para sua empresa!</h1>
-                            <p>Aproveite o potencial do e-mail marketing para ganhar vendas e fortalecer seu relacionamento com clientes.</p>
-                            <button class="teste">Teste gratuitamente</button>
-                            <div class="arrow">
-                                <button class="btn-arrow">
-                                    <img src="assets/arrow.svg" alt="">
-                                </button>
-                                <p>Conheça os recursos</p>
-                            </div>
+            <div class="container">
+                <div class="hero-txt">
+                    <h1>Ferramenta de e-mail marketing perfeita para sua empresa!</h1>
+                    <p>Aproveite o potencial do e-mail marketing para ganhar vendas e fortalecer seu relacionamento com clientes.</p>
+                    <button class="teste">Teste gratuitamente</button>
+                    
+                    <div class="arrow">
+                        <div class="btn-arrow">
+                            <img src="assets/arrow.svg" alt="ícone seta para baixo">
                         </div>
-                        <div class="hero-img">
-                            <img src="assets/hero-img.svg" alt="" class="desktop">
-                        </div>
+                        <span>Conheça os recursos</span>
                     </div>
+                </div>
+
+                <div class="hero-img">
+                    <img src="assets/hero-img.svg" alt="" class="desktop">
                 </div>
             </div>
         </section>
@@ -67,28 +68,45 @@
 
                 <div class="info-bottom">
                     <div class="card">
-                        <img src="assets/person-icon.svg" alt="">
-                        <h3>Alcance mais</h3>
-                        <p>Aumente o tráfego do seu site e suas vendas utilizando o e-mail marketing.</p>
+                        <div class="icon">
+                            <img src="assets/person-icon.svg" alt="">
+                        </div>
+
+                        <div class="info-card">
+                            <h3>Alcance mais</h3>
+                            <p>Aumente o tráfego do seu site e suas vendas utilizando o e-mail marketing.</p>
+                        </div>
                     </div>
 
-                    <div class="card">
-                        <img src="assets/wallet.svg" alt="">
-                        <h3>Gaste menos</h3>
-                        <p>Com a ferramenta você faz envios em massa, gastando menos de R$0,01 por mensagem!</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/results.svg" alt="">
-                        <h3>Autonomia e resultado</h3>
-                        <p>Crie listas de contatos, campanhas e ainda analise o resultado de cada envio.</p>
-                    </div>
-
-                    <div class="card">
-                        <img src="assets/king.svg" alt="">
-                        <h3>Templates King</h3>
-                        <p>Modelos prontos para cada tipo de e-mail: newsletter, lançamento, campanha de vendas e outros.</p>
-                    </div>
+                    <ul>
+                        <li>
+                            <div class="icon">
+                                <img src="assets/wallet.svg" alt="">
+                            </div>
+                            <div class="info-card">
+                                <h3>Gaste menos</h3>
+                                <p>Com a ferramenta você faz envios em massa, gastando menos de R$0,01 por mensagem!</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="assets/results.svg" alt="">
+                            </div>
+                            <div class="info-card">
+                                <h3>Autonomia e resultado</h3>
+                                <p>Crie listas de contatos, campanhas e ainda analise o resultado de cada envio.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icon">
+                                <img src="assets/king.svg" alt="">
+                            </div>
+                            <div class="info-card">
+                                <h3>Templates King</h3>
+                                <p>Modelos prontos para cada tipo de e-mail: newsletter, lançamento, campanha de vendas e outros.</p>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
