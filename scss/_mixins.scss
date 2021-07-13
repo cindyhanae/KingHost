@@ -13,17 +13,6 @@
     justify-content: $justify;
 }
 
-@mixin d-flex-align{
-    
-    align-items: center;
-}
-
-@mixin d-flex-justify{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 @mixin responsive($max-width){
     @media (max-width: $max-width){
         @content;
