@@ -90,9 +90,12 @@ section.s-hero{
         top: 3.7rem;
     }
 
-    @include responsive(991px){
+    @include responsive(1070px){
         .container{
             flex-direction: column;
+            .hero-img{
+                margin-inline: auto;
+            }
         }
 
         .hero-txt{

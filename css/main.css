@@ -190,7 +190,7 @@ section.s-hero .hero-txt button {
   margin-bottom: 8.6rem;
 }
 
-/* line 44, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_mixins.scss */
+/* line 33, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_mixins.scss */
 section.s-hero .hero-txt button:hover {
   background-color: #503387;
   color: #FFBF00;
@@ -232,26 +232,30 @@ section.s-hero .hero-img {
   top: 3.7rem;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1070px) {
   /* line 94, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .container {
     flex-direction: column;
   }
-  /* line 98, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 96, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  section.s-hero .container .hero-img {
+    margin-inline: auto;
+  }
+  /* line 101, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-txt {
     max-width: 100%;
     text-align: center;
     margin-bottom: 3rem;
   }
-  /* line 102, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 105, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-txt p {
     max-width: 100%;
   }
-  /* line 105, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 108, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-txt button {
     margin-bottom: 4rem;
   }
-  /* line 108, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 111, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-txt .arrow {
     justify-content: center;
   }
@@ -269,22 +273,22 @@ section.s-hero .hero-img {
   section.s-hero {
     margin-top: 8rem;
   }
-  /* line 120, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 123, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-txt h1 {
     font-size: 4.3rem;
   }
-  /* line 125, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 128, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-hero .hero-img {
     left: -0.9rem;
   }
 }
 
-/* line 132, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 135, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info {
   padding: 14.9rem 0 9.9rem 0;
 }
 
-/* line 134, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 137, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-top {
   display: flex;
   flex-direction: row;
@@ -293,7 +297,7 @@ section.s-info .info-top {
   margin-bottom: 5.3rem;
 }
 
-/* line 144, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 147, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-top h2 {
   max-width: 50.2rem;
   font-family: "PT Sans", sans-serif;
@@ -303,7 +307,7 @@ section.s-info .info-top h2 {
   color: #453F51;
 }
 
-/* line 153, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 156, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-top p {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
@@ -312,24 +316,24 @@ section.s-info .info-top p {
   color: #5E5570;
 }
 
-/* line 155, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 158, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-top p span {
   font-weight: 700;
 }
 
 @media (max-width: 768px) {
-  /* line 134, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 137, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-top {
     flex-direction: column;
   }
-  /* line 161, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 164, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-top h2 {
     text-align: center;
     margin-bottom: 2rem;
   }
 }
 
-/* line 168, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 171, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom {
   display: flex;
   flex-direction: row;
@@ -337,7 +341,7 @@ section.s-info .info-bottom {
   justify-content: space-between;
 }
 
-/* line 170, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 173, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .icon {
   width: 6.4rem;
   height: 6.4rem;
@@ -350,17 +354,17 @@ section.s-info .info-bottom .icon {
   margin-bottom: 3rem;
 }
 
-/* line 179, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 182, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .info-card {
   max-width: 23.9rem;
 }
 
-/* line 181, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 184, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .info-card h3 {
   margin-bottom: 2rem;
 }
 
-/* line 184, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 187, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .info-card p {
   font-family: "Lato", sans-serif;
   font-size: 1.6rem;
@@ -369,7 +373,7 @@ section.s-info .info-bottom .info-card p {
   color: #5E5570;
 }
 
-/* line 189, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 192, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .card {
   background-color: rgba(197, 190, 220, 0.1);
   width: 100%;
@@ -380,17 +384,17 @@ section.s-info .info-bottom .card {
   border-radius: 1.2rem;
 }
 
-/* line 197, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 200, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .card .icon {
   background-color: #fff;
 }
 
-/* line 200, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 203, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom .card .info-card {
   max-width: 20.4rem;
 }
 
-/* line 210, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+/* line 213, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
 section.s-info .info-bottom ul {
   width: 100%;
   max-width: 90.4rem;
@@ -405,12 +409,12 @@ section.s-info .info-bottom ul {
 }
 
 @media (max-width: 991px) {
-  /* line 168, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 171, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom {
     flex-direction: column;
     align-items: flex-start;
   }
-  /* line 223, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 226, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom .card {
     max-width: 100%;
     height: auto;
@@ -421,36 +425,36 @@ section.s-info .info-bottom ul {
     align-items: center;
     justify-content: center;
   }
-  /* line 229, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 232, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom .card .info-card {
     max-width: 100%;
   }
-  /* line 233, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 236, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom ul {
     gap: 2.5rem;
   }
 }
 
 @media (max-width: 480px) {
-  /* line 132, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 135, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info {
     padding-top: 6rem;
   }
-  /* line 242, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 245, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom ul {
     flex-direction: column;
     padding-left: 0;
     margin-top: 3rem;
     text-align: center;
   }
-  /* line 247, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 250, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom ul li {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
-  /* line 251, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
+  /* line 254, ../../../../../Users/cindysasaki/Documents/Meus projetos/KingHost/scss/_home.scss */
   section.s-info .info-bottom .info-card {
     max-width: 95%;
   }
