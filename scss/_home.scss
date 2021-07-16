@@ -14,18 +14,22 @@ header{
         ul{
             display: flex;
             li{
-                /* :not() significa que eu não quero que a regra dentro das {} se aplique ao elemento que estiver dentro do () */
+                /* :not() significa que eu não quero que a declaração dentro das {} se aplique ao elemento que estiver dentro do () */
                 &:not(:first-child){
                     margin-left: 5.6rem;
                 };
                 a{
                     @include flex(row, center, none);
                     @include typography($ff-lato, 1.6rem, 400, 1.9rem, $white);
+                    transition: 0.2s ease;
                     img{
                         margin-right: 1.6rem;
                     }
                     span.star{
                         font-weight: 700;
+                    }
+                    &:hover{
+                        color: rgba(255, 255, 255, 0.726);
                     }
                 }
             }
