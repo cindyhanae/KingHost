@@ -1,6 +1,6 @@
 <h1>Kinghost</h1>
 
-<p>Project developed during Codeboost course with the objective of improving skills with SASS, HTMl and CSS.</p>
+<p>Project developed during Codeboost course with the objective of improving skills with SASS, HTML and CSS.</p>
 <p><a href="https://cindyhanae.github.io/KingHost/" target="_blank">Link to app</a></p>
 
 <h2>Table of contents</h2>
