@@ -20,7 +20,7 @@
 </ul>
 
 <h2 id="description">Description</h2>
-<p>This project was developed with the main goal of practice SASS skills.</p>
+<p>This project was developed with the main goal of practicing SASS skills.</p>
 
 <h2 id="status">Status</h2>
 <p>Finished :heavy_check_mark:</p>
